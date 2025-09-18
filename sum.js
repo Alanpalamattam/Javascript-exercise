@@ -6,5 +6,5 @@ const sumfn=(a,b)=>{
 }
 
 console.log(sumfn(100, 0)); 
-console.log(sumfn(0, 10)); 
+console.log(sumfn(0, 10));  
  

@@ -7,7 +7,7 @@ const createarrayofnumbers=(num)=>{
         newarray.push(i);
     }
     return newarray;
-
+   
 }
-
+  
 console.log(findnumberofevennumbers(createarrayofnumbers(10)));

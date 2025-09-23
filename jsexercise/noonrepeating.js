@@ -5,5 +5,5 @@ non.map((m,index)=>{
     console.log(m[index])
 }
 )
-}mklk
+} 
 nonrepeating("hello")

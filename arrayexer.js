@@ -62,7 +62,7 @@ const averageSalary =
   peoplelist.reduce((acc, person) => acc + person.salary, 0) /
   peoplelist.length;
 console.log("Average Salary:", averageSalary);
-
+    
 // 2. Filter people older than 20 and return their names
 const namesAbove20 = peoplelist
   .filter(
@@ -126,3 +126,4 @@ const salaryComparison = peoplelist.reduce(
 );
 console.log("People above average salary:", salaryComparison.above);
 console.log("People below average salary:", salaryComparison.below);
+console.log("object")

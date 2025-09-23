@@ -9,7 +9,7 @@
 
 
 const checkascenting=(arr)=>{
-
+  
    
     for(let i=0;i<arr.length;i++){
          arr[i]===arr.sort((x,y)=>x-y)[i]

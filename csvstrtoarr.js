@@ -3,6 +3,5 @@ const parseCsv=(csvstring)=>
 const str= `abc,def,ghi
 jkl,mno,pqr
 stu,vwx,yza`;
-
-console.log(parseCsv(str));
  
+console.log(parseCsv(str))  

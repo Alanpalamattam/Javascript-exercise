@@ -3,9 +3,7 @@ function reverse(text){
     let reversed=""
     for(let i=text1.length-1;i>=0;i--){
       reversed+=text1[i];
-    }
- return reversed  
+    }  
+  return reversed  
 }
-
-
 console.log(reverse("hello")) 

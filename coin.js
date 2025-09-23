@@ -21,7 +21,6 @@ const coincount=(money,coin=[20,10,5,2,1])=>{
         }
         money-=thiscoinnum*coin[i]
     }
-    return totalcoins;
+    return totalcoins;  
 }
-
-console.log(coincount(46))
+ console.log(coincount(46) )

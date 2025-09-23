@@ -87,10 +87,7 @@
 //     }
 //     return maxnum;
 // }
-       
-
 // console.log(maxsum([-2,1,-3,4,-1,2,1,-5,4])) 
-              
-const equalcontent=(equal)=>
+ const equalcontent=(equal)=> 
     equal.reduce((acc,a)=>[acc.filter(x=>x.includes(a))],[])
-console.log(equalcontent(["eat","tea","tan","ate","nat","bat"])) 
+console.log(equalcontent(["eat","tea","tan","ate","nat","bat"]))   

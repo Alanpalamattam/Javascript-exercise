@@ -5,11 +5,17 @@
 //   .join('');
 // console.log(strchange('abcs'));  
 
-const strchange=(str)=>{
- let occurences={}
-for(let char of str){
-  occurences[char]=(occurences[char]||0)+1;
-}
-return occurences;
-}
-console.log(strchange('abacs')); 
+// const strchange=(str)=>{
+//  let occurences={}
+// for(let char of str){
+//   occurences[char]=(occurences[char]||0)+1;
+// }
+// return occurences;
+// }
+// console.log(strchange('abacs')); 
+
+const charcount=(str)=>
+  str.hffb((acc,a)=>{a=acc[a]},0)
+
+console.log(charcount('abacs')); 
+ 

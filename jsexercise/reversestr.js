@@ -40,7 +40,6 @@
 //     return arr       
 // }
 // console.log(arrcomb([1, [2, [3, 4]], 5]))
-
 // const nonrepeating=(strr)=>{
 //  strr=strr.split('')
 //    .filter((x)=>strr.indexOf(x)==strr.lastIndexOf(x))
@@ -88,6 +87,62 @@
 //     return maxnum;
 // }
 // console.log(maxsum([-2,1,-3,4,-1,2,1,-5,4])) 
- const equalcontent=(equal)=> 
-    equal.reduce((acc,a)=>[acc.filter(x=>x.includes(a))],[])
-console.log(equalcontent(["eat","tea","tan","ate","nat","bat"]))   
+//  const equalcontent=(equal)=>{
+//     let result=[]
+//     for(let i=0;i<equal.length;i++){
+//        let word1=equal[i].split("").sort().join("");
+//         for(let j=i+1;j<equal.length;j++){
+//          let word2=equal[j].split("").sort().join("")
+//             if(word1===word2){
+//                result.push([equal[i],equal[j]]);
+//             }
+//         }
+//     }
+//     return result;   
+//  }      
+// console.log(equalcontent(["eat","tea","tan","ate","nat","bat"])) 
+
+// const reverse=(str)=>{
+//    let reversed=""
+//    for(let i=str.length-1;i>=0;i--){
+//       reversed+=str[i];
+//    }
+//    return reversed;
+// }
+// console.log(reverse("hello"))
+
+const nonrepeating=(str)=>{
+    let count={}
+    let c=0
+    let result=""  
+    for(let char of str){
+        console.log(char,++c)
+    }
+    for (let char of str) {
+        count[char] = (count[char] || 0) + 1;
+    }
+    for(let char of str){
+        if(count[char]==1){
+            result+=char
+        }   
+    }
+    return result
+}
+ 
+console.log(nonrepeating("abacd"))
+
+// const palindrome=(str)=>{
+//     let result=""
+//     for(let i=str.length-1;i>=0;i--){
+//         result+=str[i]
+//     }
+//     if(str===result){
+//         return "Palindrome"
+//     }
+//     else{
+//         return "not palindrome"
+//     }
+// }
+//   console.log("hhu")
+//   console.log("hgf")  
+ 

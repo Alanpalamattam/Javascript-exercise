@@ -12,4 +12,4 @@ str.indexOf(s)===index&&str.lastIndexOf(s)===index)
 
   return res[0]
 }
- console.log(nonrepeat('hehlo world'));
+ console.log(nonrepeat('hehlo world')); 

@@ -15,7 +15,7 @@
 // console.log(strchange('abacs')); 
 
 const charcount=(str)=>
-  str.hffb((acc,a)=>{a=acc[a]},0)
+  str.split('').reduce((acc,a)=>{a=acc[a]},0)
 
-console.log(charcount('abacs')); 
+console.log(charcount('abacs'));
  

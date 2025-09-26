@@ -1,11 +1,4 @@
-const getlength=(arr)=>
-    arr.reduce((acc,x)=>acc.concat(Array.isArray(x)),[])
 
-console.log(getlength([1, [2, [3, [4, [5, 6]]]]]))
- // const numstr=(arr)=>
-//     arr.filter((x)=>/\d/.test(x))
-
-// console.log(numstr(["1a", "a", "2b", "b"])) 
 // const arraycheck=(arr1,arr2)=>
 //     arr1.filter((x)=>!arr2.includes(x))
 
@@ -20,5 +13,5 @@ console.log(getlength([1, [2, [3, [4, [5, 6]]]]]))
 //      }
 //     }
 //   return null
-// }
-// console.log(simplepair([1, 2, 3], 3))
+// // }  
+// console.log(simplepair([1, 2, 3], 3))   

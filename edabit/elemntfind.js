@@ -7,7 +7,7 @@ const elementfind=(arr,value)=>{
     if(x==value){
         return "Boom"
     }
- } 
- return "looop"
+ }
+  return "looop"
 }
 console.log(elementfind([1, 2, 3, 4, 5, 6, 7],5))

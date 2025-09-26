@@ -126,4 +126,3 @@ const salaryComparison = peoplelist.reduce(
 );
 console.log("People above average salary:", salaryComparison.above);
 console.log("People below average salary:", salaryComparison.below);
-console.log("object")

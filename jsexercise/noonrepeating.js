@@ -6,4 +6,5 @@ non.map((m,index)=>{
 }
 )
 } 
-nonrepeating("hello")
+nonrepeating("hello") 
+ 

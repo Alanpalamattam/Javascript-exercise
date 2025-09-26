@@ -18,7 +18,6 @@
 // function num_of_digits(num) {
 // 	return `${num}`.match(/\d/g).length;
 // }
-
 // console.log(num_of_digits(1305981031))
 
 // const addname=(obj,name,age)=>{
@@ -56,7 +55,7 @@
 
 // const toArray=(arr)=>{
 //     return Object.keys(arr).map(x=>[x,arr[x]]);
-//    } FVVSDCDCVVF
+//    }  
 
 // const toobj=(arr)=>{
 //     return arr.map(x=>{x,arr[x]})

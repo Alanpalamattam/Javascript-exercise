@@ -10,5 +10,4 @@ const countBoomerangs=(arr)=>{
   }
   return count;
 }
-          
- console.log(countBoomerangs([3, 7, 3, 2, 1, 5, 1, 2, 2, -2, 2]))
+  console.log(countBoomerangs([3, 7, 3, 2, 1, 5, 1, 2, 2, -2, 2])) 

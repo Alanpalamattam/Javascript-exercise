@@ -4,6 +4,5 @@ const sumofnum=(num)=>{
     console.log("object",summ)
     return (summ%2==0?"Evenish":"Oddish")
 }
-
-console.log(sumofnum(44))
+ console.log(sumofnum(44))
  

@@ -9,3 +9,4 @@ function palindrome(text){
 }  
 
 console.log(palindrome("ii"))
+ 

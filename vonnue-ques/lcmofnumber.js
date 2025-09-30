@@ -4,7 +4,7 @@ while(true){
   if(max%num1===0 && max%num2===0){
      return max;
   }   
-  max++;
+  max++; 
 }
 }
 

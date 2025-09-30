@@ -18,4 +18,5 @@ const charcount=(str)=>
   str.split('').reduce((acc,a)=>{a=acc[a]},0)
 
 console.log(charcount('abacs'));
- 
+   
+  

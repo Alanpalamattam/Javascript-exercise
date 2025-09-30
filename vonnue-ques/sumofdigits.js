@@ -9,4 +9,4 @@ const sumofdigits=(num)=>{
 }
 
 console.log(sumofdigits(45))
- 
+  

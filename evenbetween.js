@@ -5,9 +5,11 @@ const createarrayofnumbers=(num)=>{
     const newarray=[]
     for(let i=1;i<=num;i++){
         newarray.push(i);
-    }
+     }
     return newarray;
-   
+     
 }
   
-console.log(findnumberofevennumbers(createarrayofnumbers(10)));
+console.log(findnumberofevennumbers(createarrayofnumbers(10)));  
+
+  

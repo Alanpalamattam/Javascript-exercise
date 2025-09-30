@@ -1,6 +1,5 @@
 // const reverse=(str1)=>str1.split('').reverse().join("")  
 
-  
 // console.log(reverse("hello"))
 //  const vowelcount=(stringg)=>{
 //     stringg=stringg.split('')
@@ -128,10 +127,8 @@ const nonrepeating=(str)=>{
     }
     return result
 }
- 
-console.log(nonrepeating("abacd"))
-
-// const palindrome=(str)=>{
+ console.log(nonrepeating("abacd"))
+ // const palindrome=(str)=>{ 
 //     let result=""
 //     for(let i=str.length-1;i>=0;i--){
 //         result+=str[i]
@@ -145,4 +142,3 @@ console.log(nonrepeating("abacd"))
 // }
 //   console.log("hhu")
 //   console.log("hgf")  
- 

@@ -10,4 +10,3 @@ const armstrong=(num)=>{
 return sum==temp;
 }
  console.log(armstrong(151))
-

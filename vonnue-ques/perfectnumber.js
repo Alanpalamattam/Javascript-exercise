@@ -7,6 +7,6 @@ const perfectnumber=(num)=>{
     }
    return sum===num
 }
-
+ 
 console.log(perfectnumber(28))
 

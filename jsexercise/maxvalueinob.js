@@ -10,5 +10,5 @@ const maxvalue=(obj)=>{
      }   
      return keyy
 }
+console.log(maxvalue({a:10, b:20, c:15}))  
  
-console.log(maxvalue({a:10, b:20, c:15})) 

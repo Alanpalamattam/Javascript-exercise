@@ -7,6 +7,5 @@ const sumofdigits=(num)=>{
     }
     return sum;
 }
-
-console.log(sumofdigits(45))
-  
+   
+console.log(sumofdigits(45))      

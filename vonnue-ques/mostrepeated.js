@@ -1,7 +1,7 @@
 const mostrepeat=(arr)=>{
     let count={}
     let max=0
-    let maxvalue=null;
+    let maxvalue=null; 
     for(let item of arr){
     count[item]=(count[item]||0)+1;
     if(count[item]>max){

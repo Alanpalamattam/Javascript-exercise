@@ -12,4 +12,6 @@ const diagonalmatrix=(arr)=>{
 console.log(diagonalmatrix([
   [8, 0, 0],
   [0, 0, 0]
-]))
+]))    
+
+  

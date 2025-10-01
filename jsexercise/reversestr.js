@@ -123,12 +123,12 @@ const nonrepeating=(str)=>{
     for(let char of str){
         if(count[char]==1){
             result+=char
-        }   
+        }     
     }
     return result
 }
- console.log(nonrepeating("abacd"))
- // const palindrome=(str)=>{ 
+ console.log(nonrepeating("abacd"));
+// const palindrome=(str)=>{ 
 //     let result=""
 //     for(let i=str.length-1;i>=0;i--){
 //         result+=str[i]

@@ -7,6 +7,5 @@ const duplicate=(arr)=>{
     }
     return result;
 }
- 
-console.log(duplicate([1, 2, 2, 3, 4, 4]))
-    
+  
+console.log(duplicate([1, 2, 2, 3, 4, 4]))    

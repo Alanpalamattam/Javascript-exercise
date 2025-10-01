@@ -7,5 +7,5 @@ const duplicateremove=(arr)=>{
     }
     return result;
 }
-
-console.log(duplicateremove([1,21,11,1,5]))
+console.log(duplicateremove([1,21,11,1,5])) 
+  

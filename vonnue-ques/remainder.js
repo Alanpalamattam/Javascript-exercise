@@ -4,4 +4,4 @@ const remain=(num1,num2)=>{
     return remainder
   }
 
- console.log(remain(7,4))
+ console.log(remain(7,4))     

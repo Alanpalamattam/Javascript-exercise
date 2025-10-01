@@ -6,5 +6,5 @@ const prim=(num)=>{
     }
     return true; 
 }
-console.log(prim(10))
+console.log(prim(10))      
  

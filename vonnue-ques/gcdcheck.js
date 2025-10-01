@@ -6,5 +6,5 @@ const gcdcheck=(num1,num2)=>{
     }
  }
  return gcd;   
-} 
+}  
 console.log(gcdcheck(12,16))

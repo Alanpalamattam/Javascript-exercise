@@ -8,5 +8,5 @@ console.log(str1);
  async function getdta(){
     const val=await p;         
  }    
-
-console.log(" vsdedc");       
+ 
+ console.log(" vsdedc");       

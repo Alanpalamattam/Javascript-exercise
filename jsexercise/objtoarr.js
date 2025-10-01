@@ -7,4 +7,6 @@ const objtoarr=(obj1,obj2)=>{
    return result;
  }        
   
-console.log(objtoarr(['a',1],['b',2]));
+ console.log(objtoarr(['a',1],['b',2]));         
+
+  

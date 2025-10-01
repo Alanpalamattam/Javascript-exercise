@@ -6,12 +6,11 @@ const nested=(arr)=>{
        }
        else{
         result.push(item)
-       }
+       }       
     }
     return result;
-}
-
+} 
 console.log(nested([1, [2, [3, 4]], 5])) 
 // const nested=(arr)=>
 //     arr.flat(Infinity);
-// console.log(nested([1, [2, [3, 4]], 5]))  
+// console.log(nested([1, [2, [3, 4]], 5])) 7u7u7523

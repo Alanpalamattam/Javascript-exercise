@@ -10,4 +10,4 @@ const fractionlower=(num1,num2)=>{
  let b=num2/gcd;
  return [a , b];
 }
-console.log(fractionlower(10,6))
+console.log(fractionlower(10,6)) 

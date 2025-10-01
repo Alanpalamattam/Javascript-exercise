@@ -8,5 +8,6 @@ function palindrome(text){
  return reversed==text?"true":"false"
 }  
 
-console.log(palindrome("ii"))
+console.log(palindrome("ii"))                  
+
  

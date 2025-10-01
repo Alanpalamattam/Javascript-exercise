@@ -5,5 +5,6 @@ const fibinacci=(num)=>{
     }
     return result;
 }
-
-console.log(fibinacci(10))
+ 
+console.log(fibinacci(10)) 
+  

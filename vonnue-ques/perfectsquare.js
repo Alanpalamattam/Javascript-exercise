@@ -3,4 +3,4 @@ const perfectsquare=(num)=>{
   return  Number.isInteger(root)
 }
 
-console.log(perfectsquare(25))
+console.log(perfectsquare(25))  

@@ -14,5 +14,4 @@ const reverse=(str)=>{
   }
   return resul;
 }
- 
-console.log(reverse("hello"))
+ console.log(reverse("hello"))

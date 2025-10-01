@@ -5,5 +5,4 @@ const arravg=(arr)=>{
     }
     return sum/arr.length
 }
-
-console.log(arravg([1,2,,3,4,5]))
+ console.log(arravg([1,2,,3,4,5]))

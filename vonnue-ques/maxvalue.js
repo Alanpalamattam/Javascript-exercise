@@ -8,4 +8,4 @@ const maxarr=(arr)=>{
      return max;
  }
 
- console.log(maxarr([1,23,5,4])); 
+ console.log(maxarr([1,23,5,4]));  

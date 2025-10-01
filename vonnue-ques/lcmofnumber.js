@@ -8,4 +8,4 @@ while(true){
 }
 }
 
-console.log(lcmofnum(10,4))
+console.log(lcmofnum(10,4))    

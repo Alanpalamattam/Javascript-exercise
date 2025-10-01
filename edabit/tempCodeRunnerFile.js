@@ -12,6 +12,6 @@
 //         }
 //      }
 //     }
-//   return null
+//   return nullccc
 // // }  
 // console.log(simplepair([1, 2, 3], 3))   

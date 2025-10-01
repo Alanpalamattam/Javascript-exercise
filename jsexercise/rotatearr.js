@@ -9,9 +9,14 @@
 //          }
 //     } 
 //     return result;
+
+const { forwardRef } = require("react");
+ 
 // }
 const rotatearr=(arr,num)=>{
     let len=arr.length;
     return arr.slice(-num).concat(arr.slice(0,len-num))
-}
-console.log(rotatearr([1, 2, 3, 4, 5],2))
+}    
+  
+console.log(rotatearr([1, 2, 3, 4, 5],2)) 
+  

@@ -9,4 +9,3 @@ const intersection=(arr1,arr2)=>{
 }
 
 console.log(intersection([1, 2, 3], [2, 3, 4]))  
- 

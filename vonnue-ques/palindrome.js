@@ -7,3 +7,4 @@ const palindrome=(str)=>{
 }
 
 console.log(palindrome("malayalam"))
+ 
